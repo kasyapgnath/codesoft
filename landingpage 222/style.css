@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header {
+    background:black;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-links li {
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 50px;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('travel-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+    background-image: url(pexels-muffin-2468773.jpg);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color:black;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color:green;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ff5733;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    background: #c44020;
+    
+
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#destinations {
+    margin-top: 60px;
+    
+    
+}
+
+.destinations-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.destination {
+    width: 30%;
+   
+
+    
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.about-section {
+    background: #ecf2ef;
+    padding: 80px 20px;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.about-content img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.about{
+    margin-left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.destination :hover{
+    transform: scale(1.05);
+}
